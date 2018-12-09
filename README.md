@@ -1,6 +1,6 @@
-# Adonis API application
+# Adonis CRUD
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+Aplicação que implementa um CRUD com autenticação JWT.
 
 1. Bodyparser
 2. Authentication
@@ -8,20 +8,18 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 4. Lucid ORM
 5. Migrations and seeds
 
-## Setup
-
-Use the adonis command to install the blueprint
-
+### Setup
+Executar
 ```bash
-adonis new yardstick --api-only
+adonis serve --dev
 ```
 
-or manually clone the repo and then run `npm install`.
+Execute o comando `npm install` após clonar o projeto para baixar as dependências.
 
 
 ### Migrations
 
-Run the following command to run startup migrations.
+Execute esse comando para fazer a migração dos dados das entidades com seu banco de dados.
 
 ```js
 adonis migration:run
